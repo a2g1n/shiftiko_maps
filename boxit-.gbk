@@ -1,0 +1,41 @@
+LOCUS       boxit-         138 bp DNA     linear   SYN 21-JAN-2024
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 138)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jan 21, 2024 from SnapGene 7.1.1
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..138
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    1..138
+                     /label=loxPint(SERA2)
+                     /note="color: #ff9900"
+     primer_bind     16..35
+                     /label=barcode.F
+                     /note="color: black; sequence: aaCGtaCtGacaATAACTTC; added:
+                     2021-08-15"
+     misc_feature    28..61
+                     /label=loxP
+                     /note="LoxP sequence"
+                     /note="color: #ff6600; direction: RIGHT"
+     gap             62..73
+                     /estimated_length=12
+     misc_feature    62..73
+                     /label=barcode
+                     /note="color: #808080"
+     primer_bind     complement(74..92)
+                     /label=barcode.R
+                     /note="color: black; sequence: CATGACGATGTATGAGTAC; added: 
+                     2021-08-15"
+ORIGIN
+        1 gtaaataaaa aaaataacgt actgacaata acttcgtata gcatacatta tacgaagtta
+       61 tnnnnnnnnn nnngtactca tacatcgtca tgtatatatg tatatatata tatatttata
+      121 tattttatat tcttttag
+//

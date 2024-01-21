@@ -1,0 +1,174 @@
+LOCUS       int_ROM1        3445 bp DNA     linear   SYN 21-JAN-2024
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 3445)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jan 21, 2024 from SnapGene 7.1.1
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..3445
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     primer_bind     321..349
+                     /label=rom1.F
+                     /note="color: black; sequence: 
+                     ACATGTAACATTAGATCATTTAAATTCGT; added: 2022-07-13"
+     misc_feature    501..1000
+                     /label=LHA
+                     /note="color: #a6acb3"
+     CDS             join(1001..1158,1297..1475,1683..2126,2300..2445)
+                     /codon_start=1
+                     /label=PF3D7_1114100
+                     /note="This feature has 4 segments:
+                        1: 1001 .. 1158 / #993366
+                        2: 1297 .. 1475 / #993366
+                        3: 1683 .. 2126 / #993366
+                        4: 2300 .. 2445 / #993366"
+                     /translation="MYPYDVPDYAGYPYDVPDYAMGYPYDVPDYASNIHTLAEYRDDYA
+                     ENTPFNRTPDYYQSQSSFVQRSKPIDLLNLIFPHFTWKSFMVVISIIQLIVFIISVSIK
+                     PADFLTPSDSLLVTLGANVASRIKQGEIHRLILPIFLHANIFHAIFNIFFQLRMGFTLE
+                     KNYGIMKIIILYFVTGMYGNILSSSITYCPIKVGASTSGMGLVGIVTSELILLWHIIRH
+                     RERVVFNIIFFSLISFFYYFTFNGSNIDHVGHLGGLISGISLGILYNEHMDNKPRWYNH
+                     LKIGSYISLVLLAIIPTVVLFTIPRTC"
+     CDS             join(1001..1158,1297..1475)
+                     /codon_start=1
+                     /label=recodonised
+                     /note="This feature has 2 segments:
+                        1: 1001 .. 1158 / #ff99cc
+                        2: 1297 .. 1475 / #ff99cc"
+                     /translation="MYPYDVPDYAGYPYDVPDYAMGYPYDVPDYASNIHTLAEYRDDYA
+                     ENTPFNRTPDYYQSQSSFVQRSKPIDLLNLIFPHFTWKSFMVVISIIQLIVFIISVSIK
+                     PADFLTPS"
+     misc_feature    complement(1002..1111)
+                     /label=gRNA_132
+                     /note="color: #a6acb3; direction: LEFT"
+     CDS             1004..1030
+                     /codon_start=1
+                     /product="HA (human influenza hemagglutinin) epitope tag"
+                     /label=HA
+                     /note="color: #cc99b2"
+                     /translation="YPYDVPDYA"
+     CDS             1034..1060
+                     /codon_start=1
+                     /product="HA (human influenza hemagglutinin) epitope tag"
+                     /label=HA
+                     /note="color: #cc99b2"
+                     /translation="YPYDVPDYA"
+     CDS             1067..1093
+                     /codon_start=1
+                     /product="HA (human influenza hemagglutinin) epitope tag"
+                     /label=HA
+                     /note="color: #cc99b2"
+                     /translation="YPYDVPDYA"
+     misc_feature    complement(1149..1157)
+                     /label=gRNA_189
+                     /note="color: #a6acb3; direction: LEFT"
+     misc_feature    1159..1296
+                     /label=boxit-
+                     /note="color: #ff6600"
+     primer_bind     1174..1193
+                     /label=barcode.F
+                     /note="color: black; sequence: aaCGtaCtGacaATAACTTC; added:
+                     2024-01-21"
+     misc_feature    1186..1219
+                     /label=LoxP
+                     /note="LoxP sequence"
+                     /note="color: #33cccc; direction: RIGHT"
+     misc_feature    1220..1231
+                     /label=barD
+                     /note="color: #00ff00"
+     primer_bind     complement(1232..1250)
+                     /label=barcode.R
+                     /note="color: black; sequence: CATGACGATGTATGAGTAC; added: 
+                     2024-01-21"
+     misc_feature    1476..1682
+                     /label=boxit+
+                     /note="color: #ff9900"
+     misc_feature    1510..1543
+                     /label=LoxP
+                     /note="LoxP sequence"
+                     /note="color: #33cccc; direction: RIGHT"
+     misc_feature    1544..1555
+                     /label=barR
+                     /note="color: #ff0000"
+     primer_bind     complement(1556..1574)
+                     /label=barcode.R
+                     /note="color: black; sequence: CATGACGATGTATGAGTAC; added: 
+                     2024-01-21"
+     misc_feature    1683..2182
+                     /label=RHA
+                     /note="color: #a6acb3"
+     misc_feature    join(1724..2126,2300..2322)
+                     /label=rhomboid
+                     /note="This forward directional feature has 2 segments:
+                        1: 1724 .. 2126 / #a6acb3
+                        2: 2300 .. 2322 / #a6acb3"
+     primer_bind     complement(2337..2361)
+                     /label=rom1.R
+                     /note="color: black; sequence: ATGGTTATACCATCTAGGTTTGTTA; 
+                     added: 2022-07-13"
+ORIGIN
+        1 aaaaaaaaaa agtaacaaaa agggaacaca tgcgctcttt atttatttat ttattttttt
+       61 ttttttgttc tttttttttt ttttttttct tcaataaaaa tataatttca ttataaaaaa
+      121 tgaaaaattc ataaattata gtttttcaac tctacatata tgaatatata tataaatata
+      181 tacatatata tatatatata tatatatata tatgaatgaa taatatttaa aagaatataa
+      241 tatatgctta tgaatgaaat atgtaaaatt agtttatgta tatattatat atatatatat
+      301 atatattatt ttaaatagtg acatgtaaca ttagatcatt taaattcgta tggttattca
+      361 ttttatattt ttaatatata tatttatata tatatttttt tttttttttt tctcccttaa
+      421 ttataagcat gtgtttatat agttttttaa aatataaatg ttcattttcc cttatacata
+      481 aatattttat aaatccacta ttttataatt tccttgaaat taaagaaaaa aagaacacaa
+      541 ttcttcttta tatgtattag gactatacat atatatatat ttaatatata tgtatatatt
+      601 ataatttgaa acgtatacaa atataagctg tattatgaat ggtatatata ttcatatata
+      661 taaatttgat aattaagaac agcacaaata aaaaaaaaga aaaaaaaaaa aaaacatata
+      721 tgtatatata atataacatt tattataatt tttctctttt tttttttttt tttttttcca
+      781 gctagccatt tttgtgagtc ctattttata attatatctt tttaatatac atataaattt
+      841 ttaagatatt gttgtttagt atttttcttt tttttttttt tttttttttt ttttttgttt
+      901 attgatatat ttttcagtcg tttaaaatta tagttacaca acaataattt tttttctgtt
+      961 tatccttatt attatacttg aattatttat gtaataaacc atgtaccctt acgatgttcc
+     1021 tgactatgcg ggctatccct atgacgtccc ggactatgcc atgggctacc cttacgacgt
+     1081 tccagattac gcttctaaca tccacaccct ggctgaatac cgtgacgact acgctgaaaa
+     1141 caccccgttc aaccgtacgt aaataaaaaa aataacgtac tgacaataac ttcgtatagc
+     1201 atacattata cgaagttatt atatgtagcg ggtactcata catcgtcatg tatatatgta
+     1261 tatatatata tatttatata ttttatattc ttttagcccg gactactacc agtctcagtc
+     1321 ttctttcgtt cagcgttcta aaccgatcga cctgctgaac ctgatcttcc cgcacttcac
+     1381 ctggaaatct ttcatggttg ttatctctat catccagctg atcgttttca tcatctctgt
+     1441 ttctatcaaa ccggctgact tcctgacccc gtctggtaat acagaatatg tataaaatat
+     1501 atgcaagtta taacttcgta tagcatacat tatacgaagt tataatgaac tcgacgtact
+     1561 catacatcgt catggaaatg aattaatatg tatatatgga tatatatatg tatatatatg
+     1621 tatatatata tatatgttta ttttttttat tttttatttt ttatttttat tcttttttgt
+     1681 agatagctta ttagtaaccc ttggtgcgaa tgttgcgtcg agaataaaac agggagaaat
+     1741 tcacagattg attttaccca tatttttaca tgcaaatata ttccatgcaa tttttaatat
+     1801 tttttttcaa ttaagaatgg gatttacatt agaaaagaat tatggtatta tgaagattat
+     1861 catactttat tttgttaccg gtatgtatgg aaatatttta tcctcctcca taacatattg
+     1921 tccaataaaa gtaggggcaa gtacatcagg tatggggtta gttggaatag taacatctga
+     1981 attaatttta ttgtggcata taattagaca tagagaaaga gttgttttta atataatatt
+     2041 tttttcttta atatcttttt tttattactt cacttttaat ggttctaata ttgaccacgt
+     2101 tggtcattta ggaggcttaa tatcgggtaa ggaaaaaaag aaataataat aagtaaaata
+     2161 ataataatat gtggaaatgt tagatgaata tatttatgtg tccttatatg aaacaatcgt
+     2221 aaataaataa ataaataaat aaatatatat atatatatat atattccttt ttttttacca
+     2281 caaaatgtta acttattagg catatccctc ggaatattat acaatgaaca tatggataac
+     2341 aaacctagat ggtataacca tttaaaaata ggttcatata tttcattagt tcttttggct
+     2401 attataccaa ccgtcgtttt atttacaata cctcgtacat gttaattcgc aaataaatta
+     2461 atgtacacat atatatatat atattatgta atcattttta attcttataa aaatgttcat
+     2521 catatatcat ttttattaca ctaatttttt cttcttattt gtttatactt cattactatt
+     2581 atttattatg ttatattttt tatttattta ttttatttta tttttttttt gttacttttt
+     2641 aaatttacaa aataaaaaga atttccattt aaaatataat aataataata tatatatatt
+     2701 tatttgaatt ctacttattc atgagaatcg atttataaat tttaattaaa aagtttttat
+     2761 gatgaaaaaa aaaagaagaa tattaataaa aatacacaag cacacaaatg tacatatata
+     2821 tatatatata tatatataag agataattgt gtaaaaggaa attactcttg tattttatta
+     2881 ttaacaaaag tatgaaataa agataatgta gacgatttga aggtgaaaaa aataaatata
+     2941 tcatatatat atatatatat atatatatat ataatatttt aaaattaaaa catgggaaac
+     3001 aaaattttct atatatataa tatatattat atatacagga acaaatcaaa acatatataa
+     3061 tatatattca cttaaaaaat tataaaaaaa aaaaaaaaaa aaaaaaaaaa agatgaatga
+     3121 ttgaaggtat aaatgaaaaa acattaaata acaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+     3181 aaaaaaaaat aatgaataaa ataatgaata aaataatgaa taaaataaaa ataaatataa
+     3241 aaatatttag taaaatcgag aggtataaaa aacataaaat gtgttaggta taaagaaata
+     3301 cattattata tgtaaaatta tataaagtaa tcaatataac aaataaggaa atgatacata
+     3361 tatatatata tatatatata tatatcatta cggtacggca tttttaataa tatcctccgc
+     3421 ttttaatctt agctttctta tggtt
+//

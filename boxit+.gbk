@@ -1,0 +1,38 @@
+LOCUS       boxit+         207 bp DNA     linear   SYN 21-JAN-2024
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 207)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jan 21, 2024 from SnapGene 7.1.1
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..207
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    1..207
+                     /label=loxPint(SUB2)
+                     /note="color: #ff9900"
+     misc_feature    35..68
+                     /label=loxP
+                     /note="LoxP sequence"
+                     /note="color: #ff6600; direction: RIGHT"
+     gap             69..80
+                     /estimated_length=12
+     misc_feature    69..80
+                     /label=barcode
+                     /note="color: #3366ff"
+     primer_bind     complement(81..99)
+                     /label=barcode.R
+                     /note="color: black; sequence: CATGACGATGTATGAGTAC; added: 
+                     2021-08-15"
+ORIGIN
+        1 gtaatacaga atatgtataa aatatatgca agttataact tcgtatagca tacattatac
+       61 gaagttatnn nnnnnnnnnn gtactcatac atcgtcatgg aaatgaatta atatgtatat
+      121 atggatatat atatgtatat atatgtatat atatatatat gtttattttt tttatttttt
+      181 attttttatt tttattcttt tttgtag
+//
